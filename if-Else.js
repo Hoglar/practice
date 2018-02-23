@@ -33,22 +33,22 @@ process.stdin.on("data", (data) => {
 function gradeScore(score) {
 
     if (score <= 5) {
-        process.stdout.write("F");
+        grade = "F";
     }
     else if (score <= 10) {
-        process.stdout.write("E");
+        grade = "E";
     }
     else if (score <= 15) {
-        process.stdout.write("D");
+        grade = "D";
     }
     else if (score <= 20) {
-        process.stdout.write("C");
+        grade = "C";
     }
     else if (score <= 25) {
-        process.stdout.write("B");
+        grade = "B";
     }
     else {
-        process.stdout.write("A");
+        grade = "A";
     }
 }
 
