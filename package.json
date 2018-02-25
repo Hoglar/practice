@@ -1,0 +1,22 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "Just a set of practice files on different topics.",
+  "main": "if-Else.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoglar/practice.git"
+  },
+  "author": "Martin Høghaug Larsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hoglar/practice/issues"
+  },
+  "homepage": "https://github.com/Hoglar/practice#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
