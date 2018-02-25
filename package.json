@@ -4,7 +4,9 @@
   "description": "Just a set of practice files on different topics.",
   "main": "if-Else.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
